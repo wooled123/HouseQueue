@@ -1,0 +1,13 @@
+name: HouseQueue
+version: 1.0
+main: com.housequeue.HouseQueue
+api-version: 1.20
+
+commands:
+  queue:
+    description: Join the house queue
+  leavequeue:
+    description: Leave the visit
+  addhouse:
+    description: Register current location as a house
+    permission: housequeue.admin
